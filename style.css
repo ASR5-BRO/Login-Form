@@ -1,0 +1,132 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    transition: .2s linear;
+    
+
+}
+
+:root{
+
+    
+    --white: white;
+    --purple: #9a55b7;
+    --Orange:#f57e61;
+    --font:'Courier New', Courier, monospace;
+     
+}
+
+body{
+
+    background-image: url(image/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.logo{
+
+    width: 605px;
+    /*background-image: linear-gradient(151deg, var(--Orange), var(--purple));*/
+    
+}
+.logo button p{
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 180px;
+    height: 52px;
+    font-size: 17px;
+}
+
+.text{
+
+    color:var(--white);
+    font-family:var(--font);
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+
+.text span.P_letter{
+
+    color:var(--Orange);
+    
+}
+
+.text span.C_letter{
+
+    color:var(--purple);
+    
+}
+
+.text h2{
+
+    line-height: 40px;
+     
+}
+
+.text h2 span.Video{
+
+    color: var(--Orange);
+
+}
+
+.text h2 span.audio{
+
+    color:var(--purple);
+   
+}
+
+.Get_Started{
+
+    margin-left: 220px;
+    margin-top: 50px;
+    width: 180px;
+
+
+}
+.Get_Started:hover{
+
+    margin-left: 220px;
+    margin-top: 50px;
+    width: 200px;
+
+
+}
+
+
+.Get_Started img{
+
+    
+    position: absolute;
+    margin-right: 135px;
+    margin-top: 14px;
+    text-align: right;
+
+}
+
+
+.Get_Started button{
+
+    border-radius:12px;
+    border: none;
+    color: var(--white);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px ;
+    width: 180px;
+    height: 52px;
+    background-image: linear-gradient(151deg, var(--Orange), var(--purple));
+    
+}
+
+
+.Get_Started button p{
+
+margin-right: 10px;
+    
+}
